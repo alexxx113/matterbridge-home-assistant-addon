@@ -31,4 +31,4 @@ if grep -q /app/node_modules/matterbridge-home-assistant ~/.matterbridge/storage
 fi
 
 matterbridge -add matterbridge-home-assistant
-matterbridge -bridge -docker
+matterbridge -childbridge -docker
